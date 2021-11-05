@@ -21,6 +21,7 @@ ul li {
 ul li a{
     text-decoration: none;
 }
+<<<<<<< HEAD
 button{
     
 }
@@ -45,3 +46,11 @@ img{
     width: 50%;
     margin-left: 25%;
 }
+=======
+.footer{
+   background-color: rgb(200, 198, 198);
+}
+h2,p{
+    text-align: center;
+}
+>>>>>>> 8fef7e4b46ba79056e5da76572ed2aa27b4cc770
