@@ -3,28 +3,51 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
-nav{
+
+.logo {
+    font-weight: bold;
+}
+
+nav {
+    margin: 0;
+    border-bottom : 2px dashed gray;
+}
+.manus{
     display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    width: 90%;
 }
 ul{
     display: flex;
-    margin-top: 2%;
-    margin-right: 3%;
+    list-style: none;
+    padding: 0;
 }
 
-ul li {
-    list-style: none;
-    padding:10px 20px;
-    margin-right: 2%;
+.active, button {
+    background: #a502a5;
+    border-radius: 5px;
+    color: white;
+}
+.active{
+    color: #fff;
+}
+
+ul li{
+    padding: 10px 20px;
 }
 
 ul li a{
     text-decoration: none;
+    color: #000;
 }
-<<<<<<< HEAD
-button{
-    
+
+.icon {
+    background: #a502a5;
+    border-radius: 5px;
 }
+
 .container{
     display: flex;
 }
@@ -46,11 +69,9 @@ img{
     width: 50%;
     margin-left: 25%;
 }
-=======
 .footer{
    background-color: rgb(200, 198, 198);
 }
 h2,p{
     text-align: center;
 }
->>>>>>> 8fef7e4b46ba79056e5da76572ed2aa27b4cc770
