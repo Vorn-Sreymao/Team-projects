@@ -24,3 +24,24 @@ ul li a{
 button{
     
 }
+.container{
+    display: flex;
+}
+.card{
+    border: 1px solid;
+    margin-left: 30px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+}
+.img{
+    justify-content: center;
+    
+}
+img{
+    width: 50%;
+    margin-left: 25%;
+}
