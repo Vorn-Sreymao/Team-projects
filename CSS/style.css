@@ -21,6 +21,9 @@ ul li {
 ul li a{
     text-decoration: none;
 }
-button{
-    
+.footer{
+   background-color: rgb(200, 198, 198);
+}
+h2,p{
+    text-align: center;
 }
