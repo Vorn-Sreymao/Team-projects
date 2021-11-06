@@ -50,13 +50,16 @@ ul li a{
 
 .container{
     display: flex;
+    width: 80%;
+    margin: auto;
 }
 .card{
     border: 1px solid;
     margin-left: 30px;
     justify-content: center;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 50px;
 }
 .text{
     text-align: center;
@@ -66,12 +69,41 @@ ul li a{
     
 }
 img{
-    width: 50%;
+    width: 60%;
     margin-left: 25%;
 }
 .footer{
    background-color: rgb(200, 198, 198);
+   height: 20vh;
 }
 h2,p{
     text-align: center;
+}
+/* theara */
+section{
+    display: flex;
+    margin-top: 50px;
+    width: 90%;
+    margin: auto;
+}
+.siderbarleft{
+    width: 49%;
+    margin: auto;
+}
+.img1{
+    width: 49%;
+    margin: auto;
+}
+.img1 img{
+    border-radius: 15px;
+}
+p{
+    line-height: 1.5;
+}
+button{
+    width: 200px;
+    border: none;
+    height: 5vh;
+    margin-left: 150px;
+    cursor: pointer;
 }
